@@ -15,6 +15,11 @@ header {
 }
 .limitar-topo img {
     width: 200px;
+    border: 2px solid#2D6B50;
+    padding:5px 20px 5px 20px;
+    border-radius: 6px 0 ;
+    background-color: antiquewhite;
+    margin: 20px 0 20px 0;
 }
 .limitar-topo
 .container-links {
@@ -25,7 +30,8 @@ header {
 .opcao-produtos,
 .opcao-sobre,
 .opcao-contatos,
-.opcao-home {
+.opcao-home
+ {
     text-decoration: none;
     color: antiquewhite;
     background-color: #000115;
@@ -34,6 +40,7 @@ header {
     padding: 10px 15px; 
     margin: 10px 0 10px 0;  
 }
+
 .opcao-produtos:hover{
     background-color: #42CF2C;
     border: 2px solid ;
@@ -51,6 +58,7 @@ header {
     background-color: #42CF2C;
     border: 2px solid ;
 }
+
 
 
 

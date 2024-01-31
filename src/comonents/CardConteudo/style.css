@@ -2,7 +2,7 @@
     max-width: 250px;
     height: 350px;
     
-    border: 5px solid;
+    border: 5px solid #2D6B50;
     border-radius: 6px;
     display: flex;
     flex-direction: column;
@@ -20,7 +20,10 @@
 }
 .card-conteudo img {
     width: 230px;
-    
+    height: 180px;
+    object-fit: contain;
+    background-size: contain;
+    padding: 5px;
 }
 .card-conteudo:hover {
     border:5px solid gold;
