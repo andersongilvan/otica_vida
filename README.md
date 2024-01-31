@@ -20,12 +20,13 @@ Bem-vindo ao Otica Vida, um projeto React desenvolvido no curso Front-End da Dev
 ## Tecnologias:
 ``React: Base para a construção do front-end.
 Scroll Reveal: Animações de scroll para uma navegação dinâmica.
+
 Rotas: Integradas com React Router para uma experiência de usuário organizada.``<br/>
 
 ## Problemas Resolvidos:
 
 ``Props:`` Melhor comunicação entre componentes.<br/>
-``Scroll`` Reveal: Adiciona dinamismo ao scroll.
+``Scroll`` Reveal: Adiciona dinamismo ao scroll.<br/>
 ``Rotas:`` Organiza a navegação para uma experiência intuitiva.
 
 ## Agradecimentos:
@@ -46,8 +47,9 @@ git clone
 
 Navegue até o diretório do projeto:
 
-``bash``
-``Copy code``
+bash
+
+Copy code
 
 cd otica-vida
 
