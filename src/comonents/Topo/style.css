@@ -1,0 +1,57 @@
+header {
+    width: 100%;
+    margin-bottom: 1px;
+   
+}
+.limitar-topo {
+    max-width: 1024px;
+    margin: 0 auto;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.limitar-topo img {
+    width: 200px;
+}
+.limitar-topo
+.container-links {
+    display: flex;
+    gap: 20px;
+}
+.container-links
+.opcao-produtos,
+.opcao-sobre,
+.opcao-contatos,
+.opcao-home {
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: #000115;
+    border: 2px solid #2D6B50;
+    border-radius: 6px 0 ;
+    padding: 10px 15px; 
+    margin: 10px 0 10px 0;  
+}
+.opcao-produtos:hover{
+    background-color: #42CF2C;
+    border: 2px solid ;
+    
+}
+.opcao-sobre:hover{
+    background-color: #42CF2C;
+    border: 2px solid ;
+}
+.opcao-contatos:hover {
+    background-color: #42CF2C;
+    border: 2px solid ;
+}
+.opcao-home:hover {
+    background-color: #42CF2C;
+    border: 2px solid ;
+}
+
+
+
+

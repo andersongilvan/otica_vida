@@ -1,0 +1,68 @@
+.secao-baner {
+  width: 100%;
+  height: calc(100vh - 93px);
+  background-color: black;
+  background: url(/public/assets/imagens/capa.png);
+  background-size: cover;
+  object-fit: cover;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.secao-baner .container-titulo {
+  color: antiquewhite;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.secao-baner .container-titulo-mobile {
+  display: none;
+}
+
+@media (max-width: 425px) {
+  .secao-baner {
+    background: none;
+    background-color: #2e2d2d;
+
+    position: relative;
+  }
+  .secao-baner .container-titulo {
+    display: none;
+    
+  }
+  .secao-baner
+  .container-titulo-mobile {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 780px) {
+  .secao-baner .container-titulo {
+    display: none;
+  }
+  .secao-baner .container-titulo-mobile {
+    display: flex;
+    color: antiquewhite;
+  }
+  .secao-baner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  .secao-baner h1, p {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+  }
+  .container-titulo-mobile {
+    display: flex; 
+    flex-direction: column;
+    gap: 10px;
+    font-size: 2em;
+  }
+
+}

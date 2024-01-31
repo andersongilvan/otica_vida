@@ -1,0 +1,13 @@
+footer {
+    width: 100%;
+    margin-top: 1px;
+    background-color: #000115;
+    color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+}
+footer span {
+    font-style: italic;
+    font-size: 0.5em;
+    font-weight: 200;
+}

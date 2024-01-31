@@ -1,0 +1,28 @@
+.secao-sobre {
+
+    width: 100%; 
+    
+    margin-top: 40px;
+}
+.limitar-secao-sobre {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.secao-sobre
+.container-sobre {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.secao-sobre
+.titulo-secao-sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+}

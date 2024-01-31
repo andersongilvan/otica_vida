@@ -1,0 +1,72 @@
+.secao-produtos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    
+    text-align: center;
+    position: relative;
+}
+.secao-produtos
+.opcao-ver-catalogo {
+    width: 150px;
+
+    text-decoration: none;
+    border: 1px solid moccasin;
+    border-radius: 6px;
+    background-color: #2E2D2D;
+    padding: 10px 20px;
+    color: antiquewhite;
+    z-index: 9;
+}
+.opcao-ver-catalogo:hover {
+    background-color: aliceblue;
+    color: #2E2D2D;
+}
+.container-paralax {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 70vh ;
+    background: url(/public/assets/imagens/paralax5.jpg);
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 90%;
+}
+
+    
+@media (max-width:480px) {
+    .secao-produtos
+    .container-paralax {
+       
+       
+    }
+}
+
+
+
+@media (max-width:780px) {
+    .secao-produtos
+    .container-paralax {
+        background: url(/public/assets/imagens/pexels-photo-4541585.jpeg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 30vh;
+        background-position: center bottom;
+        background-attachment: fixed;
+        
+        
+        object-fit: contain;
+       
+    }
+    
+    
+}

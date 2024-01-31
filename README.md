@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# Otica Vida 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Alt text](<public/arquivos-readme/mobile (6).png>)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Alt text](<public/arquivos-readme/mobile (7).png>)
 
-### `npm test`
+![Alt text](<public/arquivos-readme/mobile (8).png>)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Vídeo do site em funcionamento
 
-### `npm run build`
+<video src="public/arquivos-readme/20240130_212059.mp4" controls title="Title"></video>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Bem-vindo ao Otica Vida, um projeto React desenvolvido no curso Front-End da DevMedia. Destacamos três aspectos principais:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Tecnologias:
+``React: Base para a construção do front-end.
+Scroll Reveal: Animações de scroll para uma navegação dinâmica.
+Rotas: Integradas com React Router para uma experiência de usuário organizada.``<br/>
 
-### `npm run eject`
+## Problemas Resolvidos:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+``Props:`` Melhor comunicação entre componentes.<br/>
+``Scroll`` Reveal: Adiciona dinamismo ao scroll.
+``Rotas:`` Organiza a navegação para uma experiência intuitiva.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Agradecimentos:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Agradeço à DevMedia por proporcionar conhecimentos fundamentais para este projeto.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Instalação:
+``Como Instalar o Projeto``
 
-## Learn More
+Clone este repositório em sua máquina local:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+bash
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Copy code
 
-### Code Splitting
+git clone
+ https://github.com/andersongilvan/otica-vida.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Navegue até o diretório do projeto:
 
-### Analyzing the Bundle Size
+``bash``
+``Copy code``
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+cd otica-vida
 
-### Making a Progressive Web App
+Instale as dependências utilizando 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+npm ou yarn:
 
-### Advanced Configuration
+bash
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Copy code
 
-### Deployment
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## ou
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+yarn install
+
+Inicie o aplicativo:
+
+
+bash
+Copy code
+npm start
+## ou
+yarn start
+
+

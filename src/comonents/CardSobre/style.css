@@ -1,0 +1,31 @@
+.card-sobre {
+    max-width: calc(1024px / 2);
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+    
+}
+.card-sobre img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card-sobre p {
+    padding: 20px;
+}
+
+@media  (max-width: 425px) {
+    .card-sobre img {
+        padding: 10px;
+    }
+}
+@media (max-width:780px ){
+    .card-sobre{
+        margin: 0 auto;
+    }
+    
+}
